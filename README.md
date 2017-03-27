@@ -39,4 +39,4 @@ F. ACTIVITY PAYMENT
 
 ## License
 
-WordPress for Android is an Open Source projt covered by the [GNU General Public License version 2](LICENSE.md)
+WordPress for Android is an Open Source project covered by the [GNU General Public License version 2](LICENSE.md)
