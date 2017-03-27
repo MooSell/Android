@@ -1,6 +1,6 @@
 # MooSell
 
-MooSell is a eCommerce app using [WooCommerce Rest API]http://woocommerce.github.io/woocommerce-rest-api-docs/v3.html
+MooSell is a eCommerce app using [WooCommerce Rest API](http://woocommerce.github.io/woocommerce-rest-api-docs/v3.html)
 
 ## User Stories ##
 
