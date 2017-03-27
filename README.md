@@ -1,6 +1,8 @@
 # MooSell
 
-## User Stories
+MooSell is a eCommerce app using [WooCommerce Rest API]http://woocommerce.github.io/woocommerce-rest-api-docs/v3.html
+
+## User Stories ##
 
 
 A. ACCOUNT MANAGEMENT
@@ -34,3 +36,7 @@ F. ACTIVITY PAYMENT
 - [ ] User can choose or change payment method
 - [ ] User can choose or change shipping address, billing address
 - [ ] User can click "Confirm" button to confirm payment
+
+## License
+
+WordPress for Android is an Open Source projt covered by the [GNU General Public License version 2](LICENSE.md)
