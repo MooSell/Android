@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    tools:layout_width="200dp"
+                    tools:layout_height="250dp">
+    <ImageView
+        android:background="#D2D2D2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_holder"
+        android:id="@+id/productImage"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/productName"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:paddingBottom="3dp"
+            tools:text="Skull with snake"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:text="$45"/>
+    </LinearLayout>
+</LinearLayout>

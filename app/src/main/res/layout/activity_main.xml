@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+    android:background="#f3f3f3">
+
+    <include layout="@layout/appbar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#f3f3f3">
-        <include layout="@layout/appbar" />
-        <RelativeLayout
+        android:layout_height="match_parent">
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/categoriesRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="18dp">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:padding="2dp"
-                android:drawableLeft="@drawable/ic_search"
-                android:drawableStart="@drawable/ic_search"
-                android:hint="Search"/>
-        </RelativeLayout>
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </android.support.v7.widget.RecyclerView>
-
+            android:layout_height="match_parent"
+            app:demo_child_count="5"
+            app:demo_layout="@layout/category_shimmer"
+            app:demo_layout_manager_type="linear_vertical">
+        </com.cooltechworks.views.shimmer.ShimmerRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
     </LinearLayout>
-</ScrollView>
